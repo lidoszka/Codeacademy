@@ -59,7 +59,7 @@ class App extends React.Component {
                 <div className="App">
                 <SearchBar onSearch={this.search} />
                 <div className="App-playlist">
-                <SearchResults searchResults={this.state.searchResult} onAdd={SearchResults.addTrack} />
+                <SearchResults searchResults={this.state.searchResults} onAdd={SearchResults.addTrack} />
                 <Playlist 
                 name={this.state.playlistName} 
                 tracks={this.state.playlistTracks} 
