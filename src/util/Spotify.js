@@ -1,5 +1,5 @@
 const clientId = '3a7cc7ff8abc4fb797b2d39ebf93a216';
-const redirectURI = "http://LG_jammming_project.surge.sh";
+const redirectURI = 'http://lg_jammming_project.surge.sh/';
 let spotifyAuthorizeURI = 'https://accounts.spotify.com/authorize';
 const spotifyAPIURI = 'https://api.spotify.com/v1/';
 
@@ -52,7 +52,8 @@ const Spotify = {
 },
 
 savePlaylist(playlistName, trackURIs) {
-    if(!playlistName || !trackURIs.length) {
+    console.log('dfdfd')
+    if(!playlistName || trackURIs.length === 0) {
         return;
     }
     const accessToken = Spotify.getAccessToken();
