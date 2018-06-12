@@ -52,7 +52,6 @@ const Spotify = {
 },
 
 savePlaylist(playlistName, trackURIs) {
-    console.log('dfdfd')
     if(!playlistName || trackURIs.length === 0) {
         return;
     }
