@@ -2,6 +2,7 @@ const clientId = '3a7cc7ff8abc4fb797b2d39ebf93a216';
 const redirectURI = 'http://lg_jammming_project.surge.sh/';
 let spotifyAuthorizeURI = 'https://accounts.spotify.com/authorize';
 const spotifyAPIURI = 'https://api.spotify.com/v1/';
+//const redirectURI = 'http://localhost:3000/';
 
 let accessToken;
 
